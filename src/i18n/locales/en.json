@@ -1,0 +1,47 @@
+{
+  "header": {
+    "title": "Durga Puja 2026",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Get Your Durga Puja Entry Pass",
+    "description": "Submit your requirements and our team will contact you.",
+    "button": "Get Your Pass"
+  },
+  "pricing": {
+    "title": "Pass Prices",
+    "adult": "Adult Pass",
+    "child": "Child Pass",
+    "vip": "VIP Pass"
+  },
+  "form": {
+  "title": "Request Your Entry Pass",
+  "subtitle": "Tell us your requirements and our team will contact you shortly.",
+
+  "name": "Full Name",
+  "namePlaceholder": "Enter your full name",
+
+  "mobile": "Mobile Number",
+  "mobilePlaceholder": "Enter your 10-digit mobile number",
+
+  "adults": "Number of Adults",
+  "children": "Number of Children",
+
+  "passType": "Pass Type",
+  "selectPass": "Select Pass Type",
+  "regular": "Regular Pass",
+  "vip": "VIP Pass",
+
+  "date": "Preferred Date",
+
+  "additional": "Additional Requirements",
+  "additionalPlaceholder": "Any additional requirements or questions?",
+
+  "submit": "Submit Requirement",
+  "submitting": "Opening WhatsApp...",
+
+  "required": "Please fill in all required fields.",
+  "invalidMobile": "Please enter a valid 10-digit mobile number.",
+  "success": "Your requirement has been submitted successfully."
+}
+}
