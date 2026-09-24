@@ -93,6 +93,9 @@ function Countdown() {
       {/* Red atmosphere */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(190,35,35,0.3),transparent_55%)]" />
 
+       {/* Bottom fade */}
+      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#100506] to-transparent" />
+
       {/* Bottom fade */}
       <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#100506] to-transparent" />
 
