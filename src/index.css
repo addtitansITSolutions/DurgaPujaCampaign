@@ -1,1 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
 @import "tailwindcss";
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #17120f;
+  background: #fff8ef;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  --puja-red: #7d1115;
+  --puja-dark-red: #3b0507;
+  --puja-orange: #f28a24;
+  --puja-gold: #e3a13a;
+  --puja-cream: #fff8ef;
+  --puja-text: #17120f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--puja-cream);
+  color: var(--puja-text);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.font-display {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}

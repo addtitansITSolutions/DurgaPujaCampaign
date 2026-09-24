@@ -4,19 +4,63 @@
     "language": "Language"
   },
   "hero": {
-    "title": "Get Your Durga Puja Entry Pass",
-    "description": "Submit your requirements and our team will contact you.",
+    "eyebrow": "Durga Puja 2026",
+    "title": "Celebrate the spirit of Durga Puja",
+    "description": "Experience the festivities with your family and request your entry passes with ease.",
+    "date": "October 17 to October 20, 2026",
+    "location": "New Delhi",
     "button": "Get Your Pass"
   },
   "pricing": {
-    "title": "Pass Prices",
-    "adult": "Adult Pass",
-    "child": "Child Pass",
-    "vip": "VIP Pass"
+  "eyebrow": "Choose your pass",
+  "title": "Your celebration starts here.",
+  "description": "Select the pass that suits your visit and continue with your request.",
+  "regular": "Regular Pass",
+  "regularDescription": "Enjoy the celebrations with standard event access.",
+  "regularPrice": "999",
+  "selectRegular": "Select Regular",
+  "vip": "VIP Pass",
+  "vipDescription": "Enjoy a premium experience with VIP access.",
+  "vipPrice": "1999",
+  "selectVip": "Select VIP"
+  },
+  "about": {
+  "eventEyebrow": "About the event",
+  "eventTitle": "A celebration of faith, family and tradition.",
+  "eventDescription": "Join us in celebrating the spirit of Durga Puja with your family and loved ones. Explore the event details and request your entry passes through our simple process.",
+  "dateLabel": "Event date",
+  "locationLabel": "Location",
+
+  "usEyebrow": "About us",
+  "usTitle": "Here to make your visit simple.",
+  "usDescription": "We are here to help you request your entry passes and get the information you need before your visit.",
+  "pointOne": "Simple and easy pass request process.",
+  "pointTwo": "Information available in English and Hindi.",
+  "pointThree": "Your request is sent directly to our team."
+  },
+  "countdown": {
+  "eyebrow": "The celebration is coming",
+  "title": "Countdown has begun",
+  "description": "Get ready to celebrate the spirit of Durga Puja.",
+  "days": "Days",
+  "hours": "Hours",
+  "minutes": "Minutes",
+  "seconds": "Seconds",
+  "button": "Get Your Pass"
   },
   "form": {
-  "title": "Request Your Entry Pass",
-  "subtitle": "Tell us your requirements and our team will contact you shortly.",
+  "eyebrow": "Request your pass",
+
+  "title": "Tell us what you need",
+  "subtitle": "Choose your pass, select the number of guests and send us your requirement.",
+
+  "regular": "Regular",
+  "vip": "VIP",
+
+  "adultPrice": "Adult price",
+  "childPrice": "Child price",
+
+  "person": "person",
 
   "name": "Full Name",
   "namePlaceholder": "Enter your full name",
@@ -24,24 +68,44 @@
   "mobile": "Mobile Number",
   "mobilePlaceholder": "Enter your 10-digit mobile number",
 
-  "adults": "Number of Adults",
-  "children": "Number of Children",
-
-  "passType": "Pass Type",
-  "selectPass": "Select Pass Type",
-  "regular": "Regular Pass",
-  "vip": "VIP Pass",
+  "adults": "Adults",
+  "children": "Children",
 
   "date": "Preferred Date",
 
   "additional": "Additional Requirements",
   "additionalPlaceholder": "Any additional requirements or questions?",
 
+  "total": "Total",
+
+  "whatsapp": "Send on WhatsApp",
+
   "submit": "Submit Requirement",
-  "submitting": "Opening WhatsApp...",
+  "submitting": "Submitting...",
+
+  "whatsappGreeting": "Hello, I would like to request Durga Puja entry passes.",
+  "whatsappPass": "Pass Type",
 
   "required": "Please fill in all required fields.",
   "invalidMobile": "Please enter a valid 10-digit mobile number.",
-  "success": "Your requirement has been submitted successfully."
-}
+
+  "success": "Your requirement has been submitted successfully.",
+  "submitError": "Something went wrong. Please try again."
+  },
+  "footer": {
+  "brand": "Durga Puja",
+  "year": "2026",
+  "description": "Request your event entry passes and share your requirements with our team.",
+  "contactTitle": "Contact",
+  "emailLabel": "Email",
+  "phoneLabel": "Phone",
+  "legalTitle": "Information",
+  "privacy": "Privacy Policy",
+  "terms": "Terms & Conditions",
+  "refund": "Cancellation & Refund Policy",
+  "disclaimerTitle": "Important Information",
+  "disclaimer": "Pass availability, pricing, dates and event details are subject to confirmation by the event organizers. Submitting this form does not by itself confirm or guarantee a pass. Our team will contact you to confirm your request.",
+  "copyright": "© 2026 Durga Puja. All rights reserved.",
+  "rights": "Made for a better event experience."
+  }
 }

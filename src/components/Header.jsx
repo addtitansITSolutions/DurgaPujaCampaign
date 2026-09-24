@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 function Header() {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
@@ -9,38 +9,66 @@ function Header() {
   };
 
   return (
-    <header className="flex items-center justify-between border-b bg-white px-6 py-4">
-      <h1 className="text-xl font-bold">
-        {t("header.title")}
-      </h1>
+    <header className="absolute left-0 top-0 z-50 w-full">
 
-      <div className="flex items-center gap-2">
-        <span className="text-sm text-gray-500">
-          {t("header.language")}:
-        </span>
+      <div className="flex w-full items-center justify-between px-4 py-4 sm:px-6 sm:py-5 lg:px-10">
 
-        <button
-          onClick={() => changeLanguage("en")}
-          className={`rounded px-3 py-1 text-sm ${
-            i18n.language === "en"
-              ? "bg-black text-white"
-              : "bg-gray-200"
-          }`}
+        {/* Logo */}
+        <a
+          href="/"
+          className="flex items-center gap-2"
+          aria-label="Durga Puja home"
         >
-          English
-        </button>
 
-        <button
-          onClick={() => changeLanguage("hi")}
-          className={`rounded px-3 py-1 text-sm ${
-            i18n.language === "hi"
-              ? "bg-black text-white"
-              : "bg-gray-200"
-          }`}
-        >
-          हिन्दी
-        </button>
+          <div className="flex h-9 w-9 items-center justify-center rounded-full border border-white/30 bg-black/25 text-xs font-bold text-white backdrop-blur-md">
+            DP
+          </div>
+
+          <div className="leading-none">
+
+            <p className="font-display text-sm font-bold tracking-wide text-white">
+              DURGA
+            </p>
+
+            <p className="mt-1 text-[9px] font-medium uppercase tracking-[0.25em] text-white/70">
+              PUJA 2026
+            </p>
+
+          </div>
+
+        </a>
+
+        {/* Language selector */}
+        <div className="flex items-center rounded-full border border-white/20 bg-black/30 p-1 shadow-lg backdrop-blur-md">
+
+          <button
+            type="button"
+            onClick={() => changeLanguage("en")}
+            className={`rounded-full px-3 py-1.5 text-[11px] font-bold transition sm:px-4 sm:py-2 sm:text-xs ${
+              i18n.language === "en"
+                ? "bg-white text-[#6d0c10]"
+                : "text-white/75 hover:text-white"
+            }`}
+          >
+            EN
+          </button>
+
+          <button
+            type="button"
+            onClick={() => changeLanguage("hi")}
+            className={`rounded-full px-3 py-1.5 text-[11px] font-bold transition sm:px-4 sm:py-2 sm:text-xs ${
+              i18n.language === "hi"
+                ? "bg-white text-[#6d0c10]"
+                : "text-white/75 hover:text-white"
+            }`}
+          >
+            हिन्दी
+          </button>
+
+        </div>
+
       </div>
+
     </header>
   );
 }
