@@ -8,21 +8,17 @@
     "title": "Celebrate the spirit of Durga Puja",
     "description": "Experience the festivities with your family and request your entry passes with ease.",
     "date": "October 17 to October 20, 2026",
-    "location": "New Delhi",
+    "location": "Chitranjan park - New Delhi",
     "button": "Get Your Pass"
   },
   "pricing": {
-  "eyebrow": "Choose your pass",
-  "title": "Your celebration starts here.",
-  "description": "Select the pass that suits your visit and continue with your request.",
-  "regular": "Regular Pass",
-  "regularDescription": "Enjoy the celebrations with standard event access.",
-  "regularPrice": "999",
-  "selectRegular": "Select Regular",
-  "vip": "VIP Pass",
-  "vipDescription": "Enjoy a premium experience with VIP access.",
-  "vipPrice": "1999",
-  "selectVip": "Select VIP"
+  "eyebrow": "CHOOSE YOUR PASS",
+  "title": "VIP Entry Passes",
+  "description": "Choose the pass based on the number of people joining you.",
+  "vipEntry": "VIP Entry",
+  "oneToThreePeople": "For 1–3 people",
+  "fourToSixPeople": "For 4–6 people",
+  "selectPass": "Select Pass"
   },
   "about": {
   "eventEyebrow": "About the event",
@@ -49,48 +45,52 @@
   "button": "Get Your Pass"
   },
   "form": {
-  "eyebrow": "Request your pass",
+    "eyebrow": "REQUEST YOUR PASS",
+    "title": "Tell Us What You Need",
+    "subtitle": "Choose your VIP entry pass and share your details with our team.",
 
-  "title": "Tell us what you need",
-  "subtitle": "Choose your pass, select the number of guests and send us your requirement.",
+    "choosePass": "Choose your pass",
 
-  "regular": "Regular",
-  "vip": "VIP",
+    "vipEntry": "VIP Entry",
 
-  "adultPrice": "Adult price",
-  "childPrice": "Child price",
+    "vipOneThree": "VIP Entry",
+    "oneThreePeople": "1–3 people",
 
-  "person": "person",
+    "vipFourSix": "VIP Entry",
+    "fourSixPeople": "4–6 people",
 
-  "name": "Full Name",
-  "namePlaceholder": "Enter your full name",
+    "selected": "Selected",
 
-  "mobile": "Mobile Number",
-  "mobilePlaceholder": "Enter your 10-digit mobile number",
+    "passCount": "Number of Passes",
+    "passCountDescription": "Each pass includes entry for the selected number of people.",
 
-  "adults": "Adults",
-  "children": "Children",
+    "pricePerPass": "Price per pass",
 
-  "date": "Preferred Date",
+    "name": "Full Name",
+    "namePlaceholder": "Enter your full name",
 
-  "additional": "Additional Requirements",
-  "additionalPlaceholder": "Any additional requirements or questions?",
+    "mobile": "Mobile Number",
+    "mobilePlaceholder": "Enter your 10-digit mobile number",
 
-  "total": "Total",
+    "date": "Preferred Date",
 
-  "whatsapp": "Send on WhatsApp",
+    "additional": "Additional Requirements",
+    "additionalPlaceholder": "Any additional requirements or questions?",
 
-  "submit": "Submit Requirement",
-  "submitting": "Submitting...",
+    "total": "Total",
 
-  "whatsappGreeting": "Hello, I would like to request Durga Puja entry passes.",
-  "whatsappPass": "Pass Type",
+    "whatsapp": "Send on WhatsApp",
+    "submit": "Submit Requirement",
+    "submitting": "Submitting...",
 
-  "required": "Please fill in all required fields.",
-  "invalidMobile": "Please enter a valid 10-digit mobile number.",
+    "whatsappGreeting": "Hello, I would like to request a VIP entry pass.",
+    "whatsappPass": "Pass",
 
-  "success": "Your requirement has been submitted successfully.",
-  "submitError": "Something went wrong. Please try again."
+    "required": "Please fill in all required fields.",
+    "invalidMobile": "Please enter a valid 10-digit mobile number.",
+    "invalidPassCount": "Please select at least one pass.",
+    "success": "Your requirement has been submitted successfully.",
+    "submitError": "Something went wrong. Please try again."
   },
   "footer": {
   "brand": "Durga Puja",

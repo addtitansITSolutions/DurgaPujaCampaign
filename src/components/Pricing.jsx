@@ -6,17 +6,17 @@ function Pricing({ selectedPass, onSelectPass }) {
   const { t } = useTranslation();
 
   const scrollToForm = (passType) => {
-  onSelectPass(passType);
+    onSelectPass(passType);
 
-  const form = document.getElementById("requirement-form");
+    const form = document.getElementById("requirement-form");
 
-  if (form) {
-    form.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-  }
-};
+    if (form) {
+      form.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
 
   const cardVariants = {
     hidden: {
@@ -65,7 +65,7 @@ function Pricing({ selectedPass, onSelectPass }) {
           }}
           className="max-w-2xl"
         >
-          <p className="text-[10px] text-center font-bold uppercase tracking-[0.32em] text-[#f28a24] sm:text-xs">
+          <p className="text-center text-[10px] font-bold uppercase tracking-[0.32em] text-[#f28a24] sm:text-xs">
             {t("pricing.eyebrow")}
           </p>
 
@@ -77,7 +77,6 @@ function Pricing({ selectedPass, onSelectPass }) {
             {t("pricing.description")}
           </p>
         </motion.div>
-
 
         {/* Pass Cards */}
         <motion.div
@@ -91,7 +90,7 @@ function Pricing({ selectedPass, onSelectPass }) {
         >
 
           {/* =========================
-              REGULAR
+              VIP ENTRY — 1–3 PEOPLE
           ========================= */}
           <motion.div
             variants={cardVariants}
@@ -101,14 +100,18 @@ function Pricing({ selectedPass, onSelectPass }) {
             whileTap={{
               scale: 0.97,
             }}
-            className="group relative overflow-hidden rounded-[24px] border border-white/10 bg-white/[0.055] p-4 shadow-[0_20px_70px_rgba(0,0,0,0.25)] backdrop-blur-xl transition-all duration-300 hover:border-white/20 hover:bg-white/[0.08] sm:rounded-[28px] sm:p-7"
+            className={`group relative overflow-hidden rounded-[24px] border p-4 shadow-[0_20px_70px_rgba(0,0,0,0.25)] backdrop-blur-xl transition-all duration-300 sm:rounded-[28px] sm:p-7 ${
+              selectedPass === "vip_1_3"
+                ? "border-[#f28a24]/60 bg-[#f28a24]/10"
+                : "border-white/10 bg-white/[0.055] hover:border-white/20 hover:bg-white/[0.08]"
+            }`}
           >
 
             {/* Glass highlight */}
             <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent" />
 
             {/* Icon */}
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/[0.07] text-[#ffae61] sm:h-12 sm:w-12 sm:rounded-2xl">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-[#f28a24]/20 bg-[#f28a24]/10 text-[#ffae61] sm:h-12 sm:w-12 sm:rounded-2xl">
               <Ticket
                 size={20}
                 strokeWidth={1.8}
@@ -118,12 +121,18 @@ function Pricing({ selectedPass, onSelectPass }) {
             {/* Content */}
             <div className="mt-5 sm:mt-7">
 
-              <h3 className="font-display text-lg font-bold leading-tight sm:text-2xl">
-                {t("pricing.regular")}
-              </h3>
+              <div className="flex items-start justify-between gap-2">
+                <h3 className="font-display text-lg font-bold leading-tight sm:text-2xl">
+                  {t("pricing.vipEntry")}
+                </h3>
+
+                <span className="rounded-full border border-[#f28a24]/25 bg-[#f28a24]/10 px-2 py-1 text-[8px] font-bold uppercase tracking-wider text-[#ffb45d] sm:px-2.5 sm:text-[9px]">
+                  VIP
+                </span>
+              </div>
 
               <p className="mt-2 text-[11px] leading-5 text-white/45 sm:text-sm sm:leading-6">
-                {t("pricing.regularDescription")}
+                {t("pricing.oneToThreePeople")}
               </p>
 
               {/* Price */}
@@ -134,7 +143,7 @@ function Pricing({ selectedPass, onSelectPass }) {
                 </span>
 
                 <span className="font-display text-2xl font-bold tracking-tight sm:text-4xl">
-                  {t("pricing.regularPrice")}
+                  1,000
                 </span>
 
               </div>
@@ -144,10 +153,14 @@ function Pricing({ selectedPass, onSelectPass }) {
             {/* Button */}
             <button
               type="button"
-              onClick={() => scrollToForm("regular")}
-              className="mt-5 flex w-full items-center justify-center gap-1.5 rounded-full border border-white/15 bg-white/[0.05] px-2 py-2.5 text-[11px] font-semibold text-white transition-all duration-300 hover:border-[#f28a24] hover:bg-[#f28a24] sm:mt-8 sm:px-5 sm:py-3.5 sm:text-sm cursor-pointer"
+              onClick={() => scrollToForm("vip_1_3")}
+              className={`mt-5 flex w-full cursor-pointer items-center justify-center gap-1.5 rounded-full px-2 py-2.5 text-[11px] font-bold transition-all duration-300 sm:mt-8 sm:px-5 sm:py-3.5 sm:text-sm ${
+                selectedPass === "vip_1_3"
+                  ? "bg-[#f28a24] text-white shadow-[0_10px_35px_rgba(242,138,36,0.25)]"
+                  : "border border-white/15 bg-white/[0.05] text-white hover:border-[#f28a24] hover:bg-[#f28a24]"
+              }`}
             >
-              {t("pricing.selectRegular")}
+              {t("pricing.selectPass")}
 
               <ArrowUpRight
                 size={14}
@@ -157,9 +170,8 @@ function Pricing({ selectedPass, onSelectPass }) {
 
           </motion.div>
 
-
           {/* =========================
-              VIP
+              VIP ENTRY — 4–6 PEOPLE
           ========================= */}
           <motion.div
             variants={cardVariants}
@@ -169,7 +181,11 @@ function Pricing({ selectedPass, onSelectPass }) {
             whileTap={{
               scale: 0.97,
             }}
-            className="group relative overflow-hidden rounded-[24px] border border-[#f28a24]/25 bg-gradient-to-br from-[#7d1115]/40 via-white/[0.055] to-white/[0.03] p-4 shadow-[0_25px_80px_rgba(125,17,21,0.2)] backdrop-blur-xl transition-all duration-300 hover:border-[#f28a24]/45 sm:rounded-[28px] sm:p-7"
+            className={`group relative overflow-hidden rounded-[24px] border p-4 shadow-[0_25px_80px_rgba(125,17,21,0.2)] backdrop-blur-xl transition-all duration-300 sm:rounded-[28px] sm:p-7 ${
+              selectedPass === "vip_4_6"
+                ? "border-[#f28a24]/60 bg-gradient-to-br from-[#7d1115]/50 via-white/[0.07] to-white/[0.03]"
+                : "border-[#f28a24]/25 bg-gradient-to-br from-[#7d1115]/40 via-white/[0.055] to-white/[0.03] hover:border-[#f28a24]/45"
+            }`}
           >
 
             {/* Orange glow */}
@@ -189,10 +205,10 @@ function Pricing({ selectedPass, onSelectPass }) {
             {/* Content */}
             <div className="relative mt-5 sm:mt-7">
 
-              <div className="flex items-center justify-between gap-2">
+              <div className="flex items-start justify-between gap-2">
 
                 <h3 className="font-display text-lg font-bold leading-tight sm:text-2xl">
-                  {t("pricing.vip")}
+                  {t("pricing.vipEntry")}
                 </h3>
 
                 <span className="rounded-full border border-[#f28a24]/25 bg-[#f28a24]/10 px-2 py-1 text-[8px] font-bold uppercase tracking-wider text-[#ffb45d] sm:px-2.5 sm:text-[9px]">
@@ -202,7 +218,7 @@ function Pricing({ selectedPass, onSelectPass }) {
               </div>
 
               <p className="mt-2 text-[11px] leading-5 text-white/50 sm:text-sm sm:leading-6">
-                {t("pricing.vipDescription")}
+                {t("pricing.fourToSixPeople")}
               </p>
 
               {/* Price */}
@@ -213,7 +229,7 @@ function Pricing({ selectedPass, onSelectPass }) {
                 </span>
 
                 <span className="font-display text-2xl font-bold tracking-tight sm:text-4xl">
-                  {t("pricing.vipPrice")}
+                  2,000
                 </span>
 
               </div>
@@ -223,10 +239,10 @@ function Pricing({ selectedPass, onSelectPass }) {
             {/* Button */}
             <button
               type="button"
-              onClick={() => scrollToForm("vip")}
-              className="relative mt-5 flex w-full items-center justify-center gap-1.5 rounded-full bg-[#f28a24] px-2 py-2.5 text-[11px] font-bold text-white shadow-[0_10px_35px_rgba(242,138,36,0.2)] transition-all duration-300 hover:bg-[#ff9d3e] hover:shadow-[0_15px_45px_rgba(242,138,36,0.3)] sm:mt-8 sm:px-5 sm:py-3.5 sm:text-sm cursor-pointer"
+              onClick={() => scrollToForm("vip_4_6")}
+              className="relative mt-5 flex w-full cursor-pointer items-center justify-center gap-1.5 rounded-full bg-[#f28a24] px-2 py-2.5 text-[11px] font-bold text-white shadow-[0_10px_35px_rgba(242,138,36,0.2)] transition-all duration-300 hover:bg-[#ff9d3e] hover:shadow-[0_15px_45px_rgba(242,138,36,0.3)] sm:mt-8 sm:px-5 sm:py-3.5 sm:text-sm"
             >
-              {t("pricing.selectVip")}
+              {t("pricing.selectPass")}
 
               <ArrowUpRight
                 size={14}
