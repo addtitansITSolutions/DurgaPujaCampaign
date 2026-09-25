@@ -13,17 +13,26 @@ import "swiper/css/pagination";
 
 const products = [
   {
-    key: "dhoopBatti",
+    key: "incensestick",
     image: "/nira/dhoop-batti.webp",
   },
   {
     key: "dhoopCones",
-    image: "/nira/dhoop-cones.webp",
+    image: "/nira/dhoop-cone.jpeg",
   },
   {
     key: "aromaOils",
-    image: "/nira/aroma-oils.webp",
+    image: "/nira/aroma_oils.jpeg",
   },
+  {
+    key: "SambraniCup",
+    image: "/nira/SambraniCup.jpeg",
+  },
+  {
+    key: "FragranceOil",
+    image: "/nira/FragranceOil.jpeg",
+  },
+  
 ];
 
 function NiraSponsor() {
@@ -98,7 +107,7 @@ function NiraSponsor() {
               {/* Logo */}
               <div className="mt-5 h-9 sm:h-10">
                 <img
-                  src="/nira/nira-logo.png"
+                  src="/nira/nira.png"
                   alt="NIRA Fragrance"
                   className="h-full w-auto max-w-[180px] object-contain object-left"
                 />
@@ -182,7 +191,7 @@ function NiraSponsor() {
                 RIGHT — PRODUCTS
             ====================================================== */}
 
-            <div className="min-w-0 border-t border-[#6d311d]/10 bg-[#efe0ca] p-5 sm:p-7 lg:border-l lg:border-t-0 lg:p-8">
+            <div className="min-w-0 border-t border-[#6d311d]/10 bg-[#efe0ca] p-5 sm:p-7 lg:border-l lg:border-t-0 lg:p-2">
 
               {/* Product heading */}
               <div className="mb-5 flex items-end justify-between gap-4">
@@ -255,7 +264,7 @@ function NiraSponsor() {
                           <img
                             src={product.image}
                             alt={t(`nira.products.${product.key}`)}
-                            className="h-full w-full object-contain p-4"
+                            className="h-full w-full object-cover p-0 rounded-xl p-1"
                           />
 
                           <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-black/5 via-transparent to-white/20" />
@@ -327,7 +336,7 @@ function NiraSponsor() {
                       <img
                         src={product.image}
                         alt={t(`nira.products.${product.key}`)}
-                        className="h-full w-full object-contain p-3 transition-transform duration-700 ease-out group-hover:scale-105"
+                        className="h-full w-full object-cover p-2 transition-transform duration-700 ease-out group-hover:scale-105 rounded-3xl"
                       />
 
                       <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-black/5 via-transparent to-white/20" />

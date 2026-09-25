@@ -31,7 +31,7 @@
   "usTitle": "Here to make your visit simple.",
   "usDescription": "We are here to help you request your entry passes and get the information you need before your visit.",
   "pointOne": "Simple and easy pass request process.",
-  "pointTwo": "Information available in English and Hindi.",
+  "pointTwo": "Information available in English, Hindi and Bengali.",
   "pointThree": "Your request is sent directly to our team."
   },
   "route": {
@@ -160,9 +160,11 @@
   "discountShort": "20% OFF",
 
   "products": {
-    "dhoopBatti": "Dhoop Batti",
+    "incensestick": "Incense Stick",
     "dhoopCones": "Dhoop Cones",
-    "aromaOils": "Aroma Oils"
+    "aromaOils": "Aroma Oils",
+    "SambraniCup": "Sambrani Cup",
+    "FragranceOil": "Fragrance Oil"
   }
   },
   "footer": {

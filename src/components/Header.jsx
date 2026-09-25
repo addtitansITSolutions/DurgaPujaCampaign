@@ -44,7 +44,7 @@ function Header() {
           <button
             type="button"
             onClick={() => changeLanguage("en")}
-            className={`rounded-full px-3 py-1.5 text-[11px] font-bold transition sm:px-4 sm:py-2 sm:text-xs ${
+            className={`rounded-full px-2.5 py-1.5 text-[10px] font-bold transition sm:px-4 sm:py-2 sm:text-xs ${
               i18n.language === "en"
                 ? "bg-white text-[#6d0c10]"
                 : "text-white/75 hover:text-white"
@@ -56,13 +56,25 @@ function Header() {
           <button
             type="button"
             onClick={() => changeLanguage("hi")}
-            className={`rounded-full px-3 py-1.5 text-[11px] font-bold transition sm:px-4 sm:py-2 sm:text-xs ${
+            className={`rounded-full px-2.5 py-1.5 text-[10px] font-bold transition sm:px-4 sm:py-2 sm:text-xs ${
               i18n.language === "hi"
                 ? "bg-white text-[#6d0c10]"
                 : "text-white/75 hover:text-white"
             }`}
           >
             हिन्दी
+          </button>
+
+          <button
+            type="button"
+            onClick={() => changeLanguage("bn")}
+            className={`rounded-full px-2.5 py-1.5 text-[10px] font-bold transition sm:px-4 sm:py-2 sm:text-xs ${
+              i18n.language === "bn"
+                ? "bg-white text-[#6d0c10]"
+                : "text-white/75 hover:text-white"
+            }`}
+          >
+            বাংলা
           </button>
 
         </div>
