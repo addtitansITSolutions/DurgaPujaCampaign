@@ -31,10 +31,10 @@ function Home() {
         />
 
 
-        {/* <RequirementForm
+        <RequirementForm
           selectedPass={passType}
           onSelectPass={setPassType}
-        /> */}
+        />
 
         {/* <RequirementFormAppScript /> */}
 
