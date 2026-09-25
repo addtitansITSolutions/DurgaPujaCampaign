@@ -8,7 +8,7 @@
     "title": "Celebrate the spirit of Durga Puja",
     "description": "Experience the festivities with your family and request your entry passes with ease.",
     "date": "October 17 to October 20, 2026",
-    "location": "Chitranjan park - New Delhi",
+    "location": "Chittaranjan park - New Delhi",
     "button": "Get Your Pass"
   },
   "pricing": {
@@ -33,6 +33,56 @@
   "pointOne": "Simple and easy pass request process.",
   "pointTwo": "Information available in English and Hindi.",
   "pointThree": "Your request is sent directly to our team."
+  },
+  "route": {
+  "eyebrow": "YOUR VIP EXPERIENCE",
+  "title": "From the metro to the celebration.",
+  "description": "Our team will pick you up from the nearest metro station and help you explore the Durga Puja celebrations through VIP entry and E-Rickshaw transport.",
+
+  "locationLabel": "Explore CR Park",
+  "location": "CR Park",
+  "locationDescription": "Discover the festive atmosphere, community spaces and celebration grounds across CR Park.",
+
+  "qrTitle": "Need help?",
+  "qrDescription": "Scan the QR code to contact our team.",
+
+  "pickupEyebrow": "PICKUP SERVICE",
+  "pickupTitle": "We’ll pick you up from the nearest metro.",
+  "pickupDescription": "Our team will assist with pickup from either of these nearby metro stations.",
+
+  "metroOne": "Greater Kailash Metro Station",
+  "metroOneLine": "Magenta Line",
+
+  "metroTwo": "Nehru Enclave Metro Station",
+  "metroTwoLine": "Magenta Line",
+
+  "exploreEyebrow": "VIP E-RICKSHAW ROUTE",
+  "exploreTitle": "Explore the celebration.",
+
+  "centerEyebrow": "YOUR ACCESS",
+  "centerTitle": "VIP ENTRY",
+  "centerSubtitle": "E-Rickshaw",
+
+  "routeLabel": "Your route",
+  "transport": "VIP Entry • E-Rickshaw Transport",
+
+  "places": {
+    "kaliMandir": "Kali Mandir",
+    "cooperativeGround": "Cooperative Ground",
+    "melaGround": "Mela Ground",
+    "bBlockGround": "B-Block Ground",
+    "gk2Ground": "GK-2 Ground",
+    "mahilaSamiti": "Mahila Samiti",
+    "eBlockGround": "E-Block Ground",
+    "dBlockGround": "D-Block Ground",
+    "s2BlockGround": "S2-Block Ground",
+    "bBlockGround2": "B-Block Ground",
+    "gk2Ground2": "GK-2 Ground",
+    "mahilaSamiti2": "Mahila Samiti",
+    "eBlockGround2": "E-Block Ground",
+    "dBlockGround2": "D-Block Ground",
+    "s2BlockGround2": "S2-Block Ground"
+  }
   },
   "countdown": {
   "eyebrow": "The celebration is coming",
@@ -92,17 +142,53 @@
     "success": "Your requirement has been submitted successfully.",
     "submitError": "Something went wrong. Please try again."
   },
+  "nira": {
+  "sponsored": "In Partnership With",
+  "title": "Bring the festive aroma home.",
+  "description": "Visit the NIRA Fragrance stall at CR Park and discover fragrances made for everyday rituals, celebrations and moments of calm.",
+
+  "discount": "20% OFF",
+  "discountDescription": "Get a 20% discount coupon with every entry pass.",
+  "stall": "Visit the NIRA Fragrance stall at CR Park",
+
+  "button": "Get Your Pass",
+
+  "productsEyebrow": "NIRA FRAGRANCE",
+  "productsTitle": "Explore the collection",
+  "productsHint": "Available at the stall",
+
+  "discountShort": "20% OFF",
+
+  "products": {
+    "dhoopBatti": "Dhoop Batti",
+    "dhoopCones": "Dhoop Cones",
+    "aromaOils": "Aroma Oils"
+  }
+  },
   "footer": {
   "brand": "Durga Puja",
   "year": "2026",
   "description": "Request your event entry passes and share your requirements with our team.",
-  "contactTitle": "Contact",
+  "contactTitle": "Contact Us",
   "emailLabel": "Email",
   "phoneLabel": "Phone",
-  "legalTitle": "Information",
-  "privacy": "Privacy Policy",
+  "legalTitle": "Policies",
   "terms": "Terms & Conditions",
   "refund": "Cancellation & Refund Policy",
+  "termsTitle": "Terms & Conditions",
+  "termsContent": {
+    "intro": "By submitting a pass request, you acknowledge that the information provided by you should be accurate and complete.",
+    "pass": "Pass availability, pricing, dates and entry details are subject to confirmation by the event organizers.",
+    "confirmation": "Submitting the requirement form does not by itself guarantee or confirm entry. Our team will contact you regarding your request and next steps.",
+    "organizer": "The event organizers reserve the right to make changes to event arrangements, entry requirements, timings or other event-related details when necessary."
+  },
+  "refundTitle": "Cancellation & Refund Policy",
+  "refundContent": {
+    "intro": "All pass requests are subject to confirmation by the event organizers.",
+    "cancellation": "If you need to cancel a confirmed request, please contact our team as soon as possible using the contact details provided on this website.",
+    "refund": "Any refund, where applicable, will be processed according to the cancellation terms communicated by the event organizers at the time of confirmation.",
+    "contact": "For cancellation or refund-related questions, please contact our team directly."
+  },
   "disclaimerTitle": "Important Information",
   "disclaimer": "Pass availability, pricing, dates and event details are subject to confirmation by the event organizers. Submitting this form does not by itself confirm or guarantee a pass. Our team will contact you to confirm your request.",
   "copyright": "© 2026 Durga Puja. All rights reserved.",

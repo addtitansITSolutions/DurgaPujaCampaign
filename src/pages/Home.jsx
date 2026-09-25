@@ -6,6 +6,8 @@ import Header from "../components/Header";
 import AboutEvent from "../components/AboutEvent";
 import Countdown from "../components/Countdown";
 import Footer from "../components/Footer";
+import EventRoute from "../components/EventRoute";
+import NiraSponsor from "../components/NiraSponsor";
 
 function Home() {
   const [selectedPass, setSelectedPass] = useState("vip_1_3");
@@ -18,7 +20,7 @@ function Home() {
         <Hero />
 
         <AboutEvent />
-
+        <EventRoute />
         <Countdown />
 
         <Pricing
@@ -30,6 +32,8 @@ function Home() {
           selectedPass={selectedPass}
           onSelectPass={setSelectedPass}
         />
+
+        <NiraSponsor />
 
         <Footer />
       </main>

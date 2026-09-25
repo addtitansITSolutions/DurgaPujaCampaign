@@ -963,7 +963,7 @@ function RequirementForm({
     const message = `
 ${t("form.whatsappGreeting")}
 
-${t("form.whatsappPass")}: ${data.passName}
+${t("form.whatsappPass")}: ${data.passName} : ${data.passType}
 
 ${t("form.passCount")}: ${data.passCount}
 
