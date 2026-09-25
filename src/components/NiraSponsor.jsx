@@ -14,15 +14,15 @@ import "swiper/css/pagination";
 const products = [
   {
     key: "incensestick",
-    image: "/nira/dhoop-batti.webp",
+    image: "/nira/incense_stick.jpeg",
   },
   {
     key: "dhoopCones",
     image: "/nira/dhoop-cone.jpeg",
   },
   {
-    key: "aromaOils",
-    image: "/nira/aroma_oils.jpeg",
+    key: "dhoopSticks",
+    image: "/nira/dhoop_sticks.png",
   },
   {
     key: "SambraniCup",

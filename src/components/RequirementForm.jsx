@@ -906,10 +906,7 @@ function RequirementForm({
    * Prepare submission data.
    */
   const getSubmissionData = () => {
-    const language =
-      i18n.language === "hi"
-        ? "Hindi"
-        : "English";
+    const language = i18n.language === "hi" ? "Hindi" : i18n.language === "bn" ? "Bengali"  : "English";
 
     return {
       name: formData.name.trim(),
