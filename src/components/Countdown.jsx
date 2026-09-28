@@ -12,7 +12,7 @@ function Countdown() {
     Example:
     "2026-10-17T00:00:00"
   */
-  const EVENT_DATE = "2026-10-17T00:00:00";
+  const EVENT_DATE = "2026-10-16T00:00:00";
 
   const calculateTimeLeft = () => {
     const difference =

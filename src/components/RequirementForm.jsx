@@ -711,7 +711,7 @@ import { useTranslation } from "react-i18next";
 
 const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzg6v9gWj0NLCGRj8YWmUmR9wqQwRsW-Ey2kj2XOSJoF856I5fGepwzljsdvGeWiCxu/exec";
 
-const WHATSAPP_NUMBER = "917800466039";
+const WHATSAPP_NUMBER = "918076805183";
 
 const PASS_OPTIONS = {
   vip_1_3: {

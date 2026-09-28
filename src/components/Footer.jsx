@@ -348,14 +348,14 @@ return (
         </p>
 
         <h3 className="mt-3 font-display text-2xl font-bold text-[#29231f] sm:text-3xl">
-          We're here to help.
+          {t("footer.contactLabel")}
         </h3>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2">
 
           {/* Email */}
           <a
-            href="mailto:info@example.com"
+            href="mailto:mtmukrsh672@gmail.com"
             className="group rounded-2xl border border-[#e9dfd3] bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#d9a16d] hover:shadow-md"
           >
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#fff0e3] text-[#bd5b25]">
@@ -367,13 +367,13 @@ return (
             </p>
 
             <p className="mt-1 break-all text-base font-semibold text-[#29231f] transition group-hover:text-[#bd5b25]">
-              info@example.com
+              mtmukrsh672@gmail.com
             </p>
           </a>
 
           {/* Phone */}
           <a
-            href="tel:+919999999999"
+            href="tel:+918076805183"
             className="group rounded-2xl border border-[#e9dfd3] bg-white p-5 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#d9a16d] hover:shadow-md"
           >
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#fff0e3] text-[#bd5b25]">
@@ -385,7 +385,7 @@ return (
             </p>
 
             <p className="mt-1 text-base font-semibold text-[#29231f] transition group-hover:text-[#bd5b25]">
-              +91 99999 99999
+              +91 8076805183
             </p>
           </a>
         </div>

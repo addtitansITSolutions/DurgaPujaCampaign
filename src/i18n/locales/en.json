@@ -7,7 +7,7 @@
     "eyebrow": "Durga Puja 2026",
     "title": "Celebrate the spirit of Durga Puja",
     "description": "Experience the festivities with your family and request your entry passes with ease.",
-    "date": "October 17 to October 20, 2026",
+    "date": "October 16 to October 20, 2026",
     "location": "Chittaranjan park - New Delhi",
     "button": "Get Your Pass"
   },
@@ -170,10 +170,11 @@
   }
   },
   "footer": {
-  "brand": "Durga Puja",
+  "brand": "CR-PARK Durga Puja",
   "year": "2026",
   "description": "Request your event entry passes and share your requirements with our team.",
   "contactTitle": "Contact Us",
+  "contactLabel" : "We're here to help.",
   "emailLabel": "Email",
   "phoneLabel": "Phone",
   "legalTitle": "Policies",

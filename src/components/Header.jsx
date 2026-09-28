@@ -27,7 +27,7 @@ function Header() {
           <div className="leading-none">
 
             <p className="font-display text-sm font-bold tracking-wide text-white">
-              DURGA
+              CR-PARK DURGA
             </p>
 
             <p className="mt-1 text-[9px] font-medium uppercase tracking-[0.25em] text-white/70">
