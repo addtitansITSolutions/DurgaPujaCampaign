@@ -33,7 +33,7 @@ function Home() {
           onSelectPass={setSelectedPass}
         />
 
-        {/* <NiraSponsor /> */}
+        <NiraSponsor />
 
         <Footer />
       </main>

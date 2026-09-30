@@ -526,11 +526,11 @@ function NiraSponsor() {
               </div>
 
               {/* Logo */}
-              <div className="mt-5 h-9 sm:h-10">
+              <div className="my-5 h-12 sm:h-10">
                 <img
                   src="/nira/nira.png"
                   alt="NIRA Fragrance"
-                  className="h-full w-auto max-w-[180px] object-contain object-left"
+                  className="h-18 w-auto max-w-[250px] object-contain object-left"
                 />
               </div>
 
